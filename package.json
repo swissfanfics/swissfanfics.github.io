@@ -1,0 +1,18 @@
+{
+  "name": "swissfanfics.github.io",
+  "version": "1.0.0",
+  "description": "Website Source Code",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/swissfanfics/swissfanfics.github.io"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.53.0"
+  }
+}
