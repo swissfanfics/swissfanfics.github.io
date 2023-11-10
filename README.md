@@ -15,19 +15,20 @@
 * [x] Get markdown parser done
 * [x] Create a fanfic directory
 * [ ] add chapter navigation
+* [ ] fix indexing ordering
 
 ## Chapter TODO
 
 * [ ] Slime and Devil
-  * [ ] Volume 1 (ch. 1-8 done)
+  * [x] Volume 1
   * [ ] Volume 2
   * [ ] Volume 3
 * [ ] Fury of Tempest
   * [ ] Chapter 1 - 4
 * [x] One Shots
-  * [x] Fantasy Tanya
-  * [x] Fantasy Tanya 2
   * [x] Warrior Cats Tanya
+* [x] Fantasy Tanya
+  * [x] Volume 1
 
 *i am tired i will do the rest later it is 10pm*
 
