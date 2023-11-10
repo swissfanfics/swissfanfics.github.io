@@ -1,25 +1,45 @@
 A lizardman rests on the throne of his people, holding up the same regality that one would see from the proudest kings, armored guards surrounding him at all sides. His silver hair clearly distinguished him from the others there, an elder amongst the younger generation. Despite his apparent age, he still gave off the aura of a proud hero among his people, a leader with the absolute support of his followers.
+
 It was an image he had maintained for a long time. His keen intelligence and experienced fighting skills had helped him stand out thus far, however as he began to age, the hope fell upon one of his children to continue his legacy. He had his doubts about both of them, one seemed to have no intention to be the chieftain, more contempt as a warrior or an assistant ruler more than anything. The other, while more than capable of rallying the younger generation of lizardmen and more than willing to be chieftain, lacked discipline, among other qualities.
+
 The issue of succession had been crossing his mind frequently for weeks now. His decision on it would decide the fate of his people. It had been a long time since the lizardmen were so unified under a single leader, and he didn’t want to risk losing that. 
+
 For now, though, he shook off the thought. The debate would have to come later, for now, the Lizardmen had a more pressing matter: invasion.
+
 Word had spread fast of an approaching Orc army. There were rumors that they had taken out an Ogre settlement, and while this was considered a bit of a stretch to some, the chieftain was wiser than to completely ignore the possibility.
+
 Orcs were greatly weaker than Ogres, of course, but with enough numbers, they may prove capable of overwhelming even them. Another possibility would be the existence of an Orc Lord. The Orc Lord was a thing of myths and legends, but considering everything, the possibility was there.
 The Orc armies had been spotted the day before, and while exact numbers were never calculated, the witnesses could only describe an ‘ocean of pigs.’
+
 As such, scouts had been sent to analyze the Orc armies, the scouts having finally returned as they knelt before the chieftain.
+
 The chieftain looked down at the two lizardmen who knelt before him, gesturing for them to raise their heads as he spoke to them, “Tell me, how many Orcs are there?”
 The lizardman tilted his head upwards towards the King, a slight look of terror in his eyes. Stammering for words, he silently mutters out “We believe the Orc army has 200,000 members, possibly more.”
+
 This news was startling. The Lizardmen had plenty of forces of their own, but the Orcs currently outnumbered them. The only question that could escape the chieftain's mouth was “How are they keeping that many Orcs fed…?”
+
 Such a large army would require a large amount of food. The chieftain knew little of the events of the surrounding area, however, if he recalled correctly, the territory of the Orcs was undergoing a drought. While it would certainly give them the motivation to invade, why would they go out this deep into the forest for it? How are they even able to supply that?
+
 As the voices of his fellow lizardmen filled the cave, he raised his hand up for silence. One by one all the other lizardmen in the room quieted down as the Chieftain made a realization: They could not do this alone.
-They needed all the allies they could get. To obtain them he would send an envoy, this proving a perfect time for his son to prove himself. If his son could do this well, some of his doubts about succession could, perhaps, be soothed. It was a simple task, sure, but if he was successful he would gain popularity not only among the Lizardmen but also among nearby goblin tribes. If that was the case, the lizardmen could perhaps enjoy a new period of co-prosperity with their neighbors. 
+
+They needed all the allies they could get. To obtain them he would send an envoy, this proving a perfect time for his son to prove himself. If his son could do this well, some of his doubts about succession could, perhaps, be soothed. It was a simple task, sure, but if he was successful he would gain popularity not only among the Lizardmen but also among nearby goblin tribes. If that was the case, the lizardmen could perhaps enjoy a new period of co-prosperity with their neighbors.
+
 But he was getting ahead of himself. “Where is my son? Bring him here!” The chieftain called out as his son, a powerful lizardman named Gabiru stepped out from the shadows of the other room into the light.
+
 Gabiru approached the throne before kneeling, “Father, must you refer to me in such a way? I have been granted the name ‘Gabiru’ by lord Gelmud, I would prefer it if you called me that way.”
+
 “What your name is does not matter, you are still my son.” The chieftain explained. He greatly appreciated the strength Gabiru got from being named, however, it also seemed to have the side effect of flaring his ego more than he would’ve liked. The chieftain still maintains hope that it would soothe down in time. Perhaps this venture will help him be more humble.
+
 The chieftain continued, “I have a task for you, you are to go to the nearby goblin villages and enlist their support. A large Orc army is approaching, and we’ll need all the reinforcements we can get.”
+
 Gabiru bowed his head respectfully, “I understand father, I, Gabiru, will not fail you!”
+
 Gabiru promptly stood up before bowing again and leaving. Even the way he strode out of the room was filled with a natural sense of pride. The chieftain had felt a similar sense of pride in his youth, and it almost brought about many issues. If he had let his ego continue to run wild, the Lizardmen tribe would be a far different place now. 
+
 For now, he’s left to leave this mission to his son, mentally hoping he doesn’t fuck something up.
+
 <hr>
+
 The meeting had been mostly brief, mostly a go-over of basic recon plans and possible escape routes should all go south. Some plans involved leaving the forest entirely, others opted for an escape route into Veldora’s cave as a temporary defensive location. The deep nature of the cave mixed with the fact it had one single choke point of an entrance meant that while they would be backing themselves into a corner, it would be a damned big corner with a very small entrance. 
 
 With nowhere for the villagers to stay long-term, however, the possibility of a loss was not something we could reasonably afford. As such the main focus of this was to plot out possible contingencies and to set Souei out to find details on the orc armies.
