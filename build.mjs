@@ -67,10 +67,9 @@ function scanDir(dir, mainDom) {
       var cont = "" + readFileSync(`${__dirname}/pages/${dir}/${element}`);
       var tmpl = "" + readFileSync(`${__dirname}/page_tmpl.html`);
       var source = md.render(cont);
-      console.log("source");
-      tmpl.replace(
-        "<div class=\"content\" id=\"content\">",
-        `<div class="content" id="content">${source}`
+      tmpl=tmpl.replace(
+        "${{cnt}}",
+        source
       );
       console.log(`rendering md file ${element}`);
       writeFileSync(`dist/${dir}/${element.replace(/\.md$/i, ".html")}`, tmpl);

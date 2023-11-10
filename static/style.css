@@ -34,6 +34,15 @@ body, html{
   font-size: 17px;
 }
 
+.topnav img {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 21px;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
