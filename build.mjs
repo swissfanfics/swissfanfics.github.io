@@ -61,7 +61,7 @@ function scanDir(dir) {
       var scanout = scanDir(`${dir}/${element}`);
       output+=`<fluent-accordion><fluent-accordion-item><span slot="heading">${element.replaceAll("_", " ")}</span><div class="panel">${scanout}</div></fluent-accordion-item></fluent-accordion>`;
     } else {
-      output+=`<p>${element.replaceAll("_", " ").replace(/\.md$/, "")}</p>`;
+      output+=`<hr><a href="${dir}/${element.replace(/\.md$/, ".html")}">${element.replaceAll("_", " ").replace(/\.md$/, "")}</a>`;
       console.log(`${element} is a file`);
       var cont = "" + readFileSync(`${__dirname}/pages/${dir}/${element}`);
       var tmpl = "" + readFileSync(`${__dirname}/page_tmpl.html`);

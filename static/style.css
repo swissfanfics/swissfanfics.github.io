@@ -1,6 +1,46 @@
+
+
 :root{
   --text-color: #ecf2f8;
-  --text-color-dim: #c6cdd5; 
+  --text-color-dim: #c6cdd5;
+  --themePrimary: #a2d2fb;
+  --themeLighterAlt: #acd6fa;
+  --themeLighter: #b6dbfb;
+  --themeLight: #c1e0fc;
+  --themeTertiary: #cbe5fc;
+  --themeSecondary: #d5eafd;
+  --themeDarkAlt: #dfeffd;
+  --themeDark: #e9f4fe;
+  --themeDarker: #f4f9fe;
+  --neutralLighterAlt: #0d1116;
+  --neutralLighter: #0d1016;
+  --neutralLight: #0c1015;
+  --neutralQuaternaryAlt: #0b0f14;
+  --neutralQuaternary: #0b0e13;
+  --neutralTertiaryAlt: #0a0d12;
+  --neutralTertiary: #9da2a6;
+  --neutralSecondary: #84878b;
+  --neutralPrimaryAlt: #6a6d6f;
+  --neutralPrimary: #ecf2f8;
+  --neutralDark: #363739;
+  --black: #1c1d1e;
+  --white: #0d1117;
+  --body-font: 'Mona Sans';
+
+}
+
+
+:root{
+  --neutral-fill-layer-alt-rest:var(--neutralDark) !important;
+  --neutral-fill-layer-rest:var(--neutralDark) !important;
+  --neutral-foreground-rest:var(--neutralPrimary) !important;
+  --neutral-fill-stealth-rest-on-neutral-fill-layer-rest:var(--neutralPrimaryAlt) !important;
+  --neutral-stroke-layer-rest:var(--neutralTertiary) !important;
+}
+
+a{
+  color:var(--themePrimary);
+  text-decoration: none;
 }
 
 
@@ -15,8 +55,8 @@
 
 body, html{
   font-family: "Mona Sans";
-  background-color:#0d1117;
-  color:var(--text-color);
+  background-color:var(--white);
+  color:var(--neutralPrimary);
 }
 
 .content{
@@ -26,14 +66,14 @@ body, html{
 }
 
 .topnav {
-  background-color: #21262d;
+  background-color: var(--neutralDark);
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: var(--text-color-dim);
+  color: var(--neutralPrimary);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -42,7 +82,7 @@ body, html{
 
 .topnav img {
   float: left;
-  color: var(--text-color-dim);
+  color: var(--neutralPrimary);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -51,9 +91,20 @@ body, html{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #21262d;
-  color: var(--text-color-dim);
+  background-color: var(--neutralDark);
+  color: var(--neutralPrimaryAlt);
 }
 fluent-accordion-item{
   margin-top:30px;
+  /* background-color:var(--neutralDark);
+  color:var(--neutralPrimary);
+  border-color:var(--themePrimary); */
+}
+
+.icon{
+  background:#21262d;
+}
+
+fluent-accordion-item fluent-accordion-item{
+  margin-top:5px;
 }
