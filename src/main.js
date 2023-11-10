@@ -13,7 +13,7 @@ library.add(fab, far, fas);
 dom.i2svg();
 
 const analytics = Analytics({
-  app: "GHPages",
+  app: "swiss",
   plugins: [
     googleTagManager({
       containerId: "G-Q96JJVSGRQ",
