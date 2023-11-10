@@ -16,12 +16,12 @@ const md = MarkdownIt({
   html: true,
 });
 
-
+var exe;
 try {
   execSync("which bun");
-  var exe = "bun";
+  exe = "bun";
 } catch (error) {
-  var exe = "npx bun";
+  exe = "npx bun";
 }
 
 
