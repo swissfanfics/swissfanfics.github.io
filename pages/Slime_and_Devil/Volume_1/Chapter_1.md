@@ -1,4 +1,4 @@
-t had been many years since Tanya von Degurechaff had been born, someone who throughout her life continued to refuse the will of God to her very last breath, in fact, she refused to believe 'God' even existed in the first place, referring to the entity she encountered as 'Being X.' This Being X had grown tired of it, and despite his best efforts, he came to the realization that trying to convert her was a lost cause, and while he debated what to do about the glaring issue of faith he was facing across his domains, he knew for certain what he would do with her.
+It had been many years since Tanya von Degurechaff had been born, someone who throughout her life continued to refuse the will of God to her very last breath, in fact, she refused to believe 'God' even existed in the first place, referring to the entity she encountered as 'Being X.' This Being X had grown tired of it, and despite his best efforts, he came to the realization that trying to convert her was a lost cause, and while he debated what to do about the glaring issue of faith he was facing across his domains, he knew for certain what he would do with her.
 
 
 

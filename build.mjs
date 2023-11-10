@@ -66,9 +66,11 @@ function scanDir(dir) {
       var cont = "" + readFileSync(`${__dirname}/pages/${dir}/${element}`);
       var tmpl = "" + readFileSync(`${__dirname}/page_tmpl.html`);
       var source = md.render(cont);
+      var v =`<h1 class="center">${(`${dir.replace(/^\//, "")}/${element.replace(/\.md$/,"")}`).replaceAll("/", " - ").replaceAll("_", " ")}</h1>`;
+      console.log(v);
       tmpl=tmpl.replaceAll(
         "${{cnt}}",
-        source
+        v+source
       );
       console.log(`rendering md file ${element}`);
       writeFileSync(`dist/${dir}/${element.replace(/\.md$/i, ".html")}`, format(tmpl));
