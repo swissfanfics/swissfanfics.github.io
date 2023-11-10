@@ -1,3 +1,9 @@
+:root{
+  --text-color: #ecf2f8;
+  --text-color-dim: #c6cdd5; 
+}
+
+
 @font-face {
   font-family: 'Mona Sans';
   src:
@@ -10,7 +16,7 @@
 body, html{
   font-family: "Mona Sans";
   background-color:#0d1117;
-  color:#ecf2f8;
+  color:var(--text-color);
 }
 
 .content{
@@ -27,7 +33,7 @@ body, html{
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #c6cdd5;
+  color: var(--text-color-dim);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -36,7 +42,7 @@ body, html{
 
 .topnav img {
   float: left;
-  color: #c6cdd5;
+  color: var(--text-color-dim);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -46,29 +52,8 @@ body, html{
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #21262d;
-  color: #0d1117;
+  color: var(--text-color-dim);
 }
-
-.accordion {
-  background-color: #c6cdd5;
-  color: #89929b;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-} 
-
-.active, .accordion:hover {
-  background-color: #c6cdd5;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: #ecf2f8;
-  display: none;
-  overflow: hidden;
+fluent-accordion-item{
+  margin-top:30px;
 }

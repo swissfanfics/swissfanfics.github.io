@@ -5,10 +5,10 @@ import {
   lstatSync,
   appendFileSync,
 } from "fs";
-import { JSDOM } from "jsdom";
 import MarkdownIt from "markdown-it";
 import { execSync } from "child_process";
 import path from "path";
+import format from "html-format";
 
 import { fileURLToPath } from "url";
 
@@ -47,12 +47,7 @@ if (process.env.PRODUCTION) {
 
 execSync("cp -r static/* dist/");
 
-const mainPage = new JSDOM(readFileSync(__dirname + "/page_tmpl.html"), {
-  runScripts: "outside-only",
-});
-
-// eslint-disable-next-line no-unused-vars
-function scanDir(dir, mainDom) {
+function scanDir(dir) {
   console.log(`listing ${dir}`);
   var ls = readdirSync("pages/" + dir);
   var output="";
@@ -61,11 +56,10 @@ function scanDir(dir, mainDom) {
     console.log(`checking ${dir}/${element}`);
     var stats = lstatSync(`${__dirname}/pages/${dir}/${element}`);
     if (stats.isDirectory()) {
-
       console.log(`${element} is a dir`);
       execSync(`mkdir dist/${dir}/${element}`);
       var scanout = scanDir(`${dir}/${element}`);
-      output+=`<button class="accordian">${element.replaceAll("_", " ")}</button><div class="panel">${scanout}</div>`;
+      output+=`<fluent-accordion><fluent-accordion-item><span slot="heading">${element.replaceAll("_", " ")}</span><div class="panel">${scanout}</div></fluent-accordion-item></fluent-accordion>`;
     } else {
       output+=`<p>${element.replaceAll("_", " ").replace(/\.md$/, "")}</p>`;
       console.log(`${element} is a file`);
@@ -77,17 +71,15 @@ function scanDir(dir, mainDom) {
         source
       );
       console.log(`rendering md file ${element}`);
-      writeFileSync(`dist/${dir}/${element.replace(/\.md$/i, ".html")}`, tmpl);
+      writeFileSync(`dist/${dir}/${element.replace(/\.md$/i, ".html")}`, format(tmpl));
     }
   }
   return output;
 }
 
-// writeFileSync("dist/index.html", mainPage.serialize());
-
 console.log("running Scan");
-var fo = scanDir("", mainPage);
+var fo = scanDir("");
 
 var index = ""+readFileSync("page_tmpl.html");
 
-writeFileSync("dist/index.html", index.replaceAll("${{cnt}}", fo));
+writeFileSync("dist/index.html", format(index.replaceAll("${{cnt}}", fo)));
