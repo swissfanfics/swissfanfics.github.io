@@ -13,8 +13,8 @@
 ## TODO
 
 * [x] Get markdown parser done
-* [ ] Create a fanfic directory
-  * [ ] add chapter navigation
+* [x] Create a fanfic directory
+* [ ] add chapter navigation
 
 ## Chapter TODO
 
