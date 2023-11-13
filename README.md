@@ -5,6 +5,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/swissfanfics/swissfanfics.github.io/build.yml)
 [![Discord](https://img.shields.io/discord/903407048975331328?label=Discord)](https://discord.gg/xcCvpSxmA7)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fswissfanfics.github.io)
+![CII Best Practices Tiered Percentage](https://img.shields.io/cii/percentage/8072)
 
 
 
