@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cd dist && python3 -m http.server",
-    "serve": "node build.mjs && npm run dev"
+    "serve": "node build.mjs && npm run dev",
+    "build": "node build.mjs"
   },
   "repository": {
     "type": "git",
