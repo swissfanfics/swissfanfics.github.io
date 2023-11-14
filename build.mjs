@@ -4,6 +4,7 @@ import {
   readFileSync,
   lstatSync,
   appendFileSync,
+  mkdirSync,
 } from "fs";
 import MarkdownIt from "markdown-it";
 import { execSync } from "child_process";
@@ -57,7 +58,7 @@ function scanDir(dir) {
     var stats = lstatSync(`${__dirname}/pages/${dir}/${element}`);
     if (stats.isDirectory()) {
       console.log(`${element} is a dir`);
-      execSync(`mkdir dist/${dir}/${element}`);
+      mkdirSync(`dist/${dir}/${element}`);
       var scanout = scanDir(`${dir}/${element}`);
       output+=`<fluent-accordion><fluent-accordion-item><span slot="heading">${element.replaceAll("_", " ")}</span><div class="panel">${scanout}</div></fluent-accordion-item></fluent-accordion>`;
     } else {
