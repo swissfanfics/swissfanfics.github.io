@@ -10,8 +10,9 @@ import MarkdownIt from "markdown-it";
 import { execSync } from "child_process";
 import path from "path";
 import format from "html-format";
-
 import { fileURLToPath } from "url";
+import { config } from "dotenv";
+config();
 
 const md = MarkdownIt({
   html: true,
@@ -29,8 +30,7 @@ try {
 const __filename = fileURLToPath(import.meta.url);
 
 const __dirname = path.dirname(__filename);
-import { config } from "dotenv";
-config();
+
 
 execSync("rm -rf dist/");
 
